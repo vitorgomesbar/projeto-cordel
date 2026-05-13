@@ -88,15 +88,8 @@ section.imagem > p {
 }
 
 section.primeiro {
-        padding-top: 30vh;
-        padding-bottom: 30vh;
-    }
-
-@media (min-width: 768px) {
-    section.primeiro {
-        padding-top: 22vh;
-        padding-bottom: 22vh;
-    }
+    padding-top: 27vh;
+    padding-bottom: 27vh;
 }
 
 
@@ -105,8 +98,8 @@ section.meio {
     padding-bottom: 8vh;
 }
 section.ultimo {
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
 }
 
 section#img01 {
