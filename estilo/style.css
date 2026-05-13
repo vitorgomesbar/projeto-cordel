@@ -49,8 +49,6 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
@@ -77,6 +75,8 @@ section.imagem {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     color: white;
     box-shadow: 6px 6px 13px 0 rgba(0, 0, 0, 0.5) inset;
 }
@@ -85,6 +85,19 @@ section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 0 black;
+}
+
+section.primeiro {
+    padding-top: 22vh;
+    padding-bottom: 22vh;
+}
+section.meio {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+section.ultimo {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
 }
 
 section#img01 {
