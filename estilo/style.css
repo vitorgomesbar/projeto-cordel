@@ -19,7 +19,6 @@ body {
     font-family: var(--fonte1);
     height: 100vh;
     background-color: darkgray;
-    box-shadow: -6px 0 13px 0 rgba(0, 0, 0, 0.5) inset;
 }
 
 header {
@@ -50,6 +49,8 @@ header a:hover, footer a:hover {
 }
 
 section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
@@ -76,8 +77,6 @@ section.imagem {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
     color: white;
     box-shadow: 6px 6px 13px 0 rgba(0, 0, 0, 0.5) inset;
 }
@@ -86,22 +85,6 @@ section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 0 black;
-    padding: 20px 25px 20px 15px;
-}
-
-section.primeiro {
-    padding-top: 22vh;
-    padding-bottom: 22vh;
-}
-
-section.meio {
-    padding-top: 8vh;
-    padding-bottom: 8vh;
-}
-
-section.ultimo {
-    padding-top: 6vh;
-    padding-bottom: 6vh;
 }
 
 section#img01 {
@@ -116,6 +99,6 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 0.65em;
+    font-size: 0.825em;
     padding: 10px;
 }
